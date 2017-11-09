@@ -26,6 +26,10 @@ header
     padding-top: 30px;
     z-index: 2;
 }
+.newNavA
+{
+    padding-left: 20px;
+}
 li
 {
     list-style-type: none ;
