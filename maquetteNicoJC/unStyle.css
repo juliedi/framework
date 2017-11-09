@@ -1,0 +1,94 @@
+.jaune
+{
+    background-color: #ffce40 ;
+}
+p
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    text-align: justify;
+}
+
+@media screen and (min-width: 10px) and (max-width: 650px)
+    {
+        .navbar
+        {
+            flex-direction: row-reverse;
+        }
+        .background
+        {
+            height: 350px;
+        }
+    }
+@media screen and (min-width: 651px) and (max-width: 1200px)
+    {
+        .navBouton
+        {
+            display: none;
+        }
+        .menu
+        {
+            display: inline-block;
+        }
+        li
+        {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        }
+        .background
+        {
+            height: 500px;
+        }
+    }
+@media screen and (min-width: 1201px) and (max-width: 4000px)
+    {
+        .navBouton
+        {
+            display: none;
+        }
+        .menu
+        {
+            display: inline-block;
+        }
+        li
+        {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .background
+        {
+            height: 790px;
+        }
+    }
+.background
+{
+    width: 100% ;
+    background-image: url('background.png');
+    background-size: cover ;
+}
+.form
+{
+    color: #d73252;
+}
+.bouton
+{
+    background-color: #d73252;
+    border-radius: 15px;
+}
+li
+{
+    list-style-type: none ;
+}
+figure
+{
+    margin: 0 ;
+}
+label
+{
+    margin-left: 2em;
+}
