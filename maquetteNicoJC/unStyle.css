@@ -82,6 +82,7 @@ a:link
     }
 @media screen and (min-width: 651px) and (max-width: 1200px)
     {
+        /**********NAV651/1200***************/
         .navBouton
         {
             display: none;
@@ -89,14 +90,73 @@ a:link
         .newNav
         {
             display: block;
-            height: 100px;
+            height: 70px;
             background-color: #ffffff ;
             color: black ;
         }
+        /********decoBG************/
         .background
         {
             height: 500px;
         }
+        /*********formulaire651/1200**********/
+            .form
+            {
+                position: relative;
+            }
+            label
+            {
+                position: absolute ;
+                z-index: 1;
+            }
+            input
+            {
+                position: absolute ;
+                z-index: 1;
+            }
+            input.left
+            {
+                left:25%;
+            }
+            span.sright
+            {
+                margin-left: 10px;
+            }
+            input.r1
+            {
+                top:0px;
+            }
+            input.r2
+            {
+                top:0px;
+            }
+            span.sleft
+            {
+                margin-right: 450px;
+            }
+            input.l1
+            {
+                top:0px;
+            }
+            input.l2
+            {
+                top:0px;
+            }
+            input.l3
+            {
+                top:0px;
+            }
+            input.right
+            {
+                right:10%;
+            }
+            .bouton
+            {
+                bottom: -27px;
+                left: 50%;
+                right: 50%;
+                z-index: 1;
+            }
     }
 @media screen and (min-width: 1201px) and (max-width: 4000px)
     {
@@ -122,6 +182,64 @@ a:link
         {
             height: 790px;
         }
+        /***********FORMULAIRE*****************/
+                    .form
+            {
+                position: relative;
+            }
+            label
+            {
+                position: absolute ;
+                z-index: 1;
+            }
+            input
+            {
+                position: absolute ;
+                z-index: 1;
+            }
+            input.left
+            {
+                left:25%;
+            }
+            span.sright
+            {
+                margin-left: 10px;
+            }
+            input.r1
+            {
+                top:0px;
+            }
+            input.r2
+            {
+                top:0px;
+            }
+            span.sleft
+            {
+                margin-right: 450px;
+            }
+            input.l1
+            {
+                top:0px;
+            }
+            input.l2
+            {
+                top:0px;
+            }
+            input.l3
+            {
+                top:0px;
+            }
+            input.right
+            {
+                right:10%;
+            }
+            .bouton
+            {
+                bottom: -27px;
+                left: 50%;
+                right: 50%;
+                z-index: 1;
+            }
     }
 /*------------------------------COLOR FONT PAGE----------------*/
 .jaune
@@ -155,9 +273,5 @@ figure
 {
     background-color: #d73252;
     border-radius: 15px;
-}
-label
-{
-    margin-left: 2em;
 }
 /*----------------FOOTER------------------*/
