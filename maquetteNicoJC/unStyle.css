@@ -37,6 +37,7 @@ a:link
 /*-------------------------MEDIA SCREEN---------------------------*/
 @media screen and (min-width: 10px) and (max-width: 650px)
     {
+        /********nav*************/
         .newNav
         {
             display: none;
@@ -45,10 +46,39 @@ a:link
         {
             flex-direction: row-reverse;
         }
+        /********background*********/
         .background
         {
             height: 350px;
         }
+        /*******formulaire*******/
+            label
+            {
+                margin-left: 2em;
+            }
+            .msg
+            {
+                padding-bottom: 10px;
+            }
+            .textarea
+            {
+                height: 100px;
+            }
+            input
+            {
+                position: absolute;
+                z-index: 1;
+                right: 5%;
+                left:20%;
+            }
+            input.bouton
+            {
+                width: 100px;
+            }
+            span
+            {
+               padding-right: 100%;
+            }
     }
 @media screen and (min-width: 651px) and (max-width: 1200px)
     {
@@ -129,9 +159,5 @@ figure
 label
 {
     margin-left: 2em;
-}
-input
-{
-    width: 500px;
 }
 /*----------------FOOTER------------------*/
