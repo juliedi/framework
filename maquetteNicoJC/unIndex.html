@@ -19,24 +19,24 @@
     <header class="blanc">
         <div class="header">
         <nav class="newNav">
-            <a class="newNavA" href="#">PRODUITS</a>
+            <a class="newNavA" href="#produits">PRODUITS</a>
             <a class="newNavA" href="#">COMPTE</a>
             <a class="newNavA" href="#">PANIER</a>
-            <a class="newNavA" href="#">CONTACT</a>
+            <a class="newNavA" href="#contact">CONTACT</a>
         </nav><!-- Fin .newNav -->
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
         <button class="navBouton navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src="logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="#"><img id="haut" src="logo.png" alt="logo"></a>
         <div id="navbarTogglerDemo02" class="menu navbar-collapse collapse" aria-expanded="false" style="">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item active"><a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a></li>
-            <li class="nav-item"><a class="nav-link" href="#">PRODUITS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#produits">PRODUITS</a></li>
             <li class="nav-item"><a class="nav-link" href="#">COMPTE</a></li>
             <li class="nav-item"><a class="nav-link" href="#">PANIER</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
         </ul>
         </div><!-- FIn navbartogglerdemo02 -->
     </nav>
@@ -44,7 +44,7 @@
     </header>
     <div class="mapage">
     <div class="jaune">
-        <section class="container text-center">
+        <section id="produits" class="container text-center">
             <h2 style="visibility: hidden;">Mon titre</h2>
             <!-- BLE-->
             <div class="row">
@@ -74,9 +74,9 @@
     <div class="background">
 
     </div>
-    <div class="jaune">
+    <div class="jaune b230">
         <section class="container text-center form">
-        <h5>CONTACTEZ NOUS</h5>
+        <h5 id="contact">CONTACTEZ NOUS</h5>
         <div class="row">
         <form method="" action="" class="col-12">
             <label class="col-12 right"><span class="txt sright">SUJET</span><input type="text" class="right r1"></label>
@@ -90,8 +90,21 @@
         </section>
     </div>
     </div><!-- fin ma page -->
-    <footer>
-
+    <footer class="container text-center">
+        <div class="row">
+        <div class="col-12">
+        <a href="#haut"><img src="logo.png" alt="logo"></a>
+        </div>
+        <div class="col-12">
+        <a href="#haut">MOKUP</a> <i>|</i>
+        <a href="#">MENTIONS LEGALES</a>
+        </div>
+        <div class="col-12">
+        <a href="#"><img src="twi.png" alt="logo twitter"></a>
+        <a href="#"><img src="mail.png" alt="logo mail"></a>
+        <a href="#"><img src="f.png" alt="logo facebook"></a>
+        </div>
+        </div>
     </footer>
 </body>
 </html>
