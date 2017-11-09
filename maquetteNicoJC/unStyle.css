@@ -1,3 +1,4 @@
+/*-------------------------HEADER AND NAV------------------------*/
 header
 {
     height:100px;
@@ -15,18 +16,11 @@ header
     background-color: #ffffff;
     z-index: 1;
 }
-.jaune
+li
 {
-    background-color: #ffce40 ;
+    list-style-type: none ;
 }
-p
-{
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: auto;
-    text-align: justify;
-}
-
+/*-------------------------MEDIA SCREEN---------------------------*/
 @media screen and (min-width: 10px) and (max-width: 650px)
     {
         .navbar
@@ -82,12 +76,30 @@ p
             height: 790px;
         }
     }
+/*------------------------------COLOR FONT PAGE----------------*/
+.jaune
+{
+    background-color: #ffce40 ;
+}
+p
+{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    text-align: justify;
+}
 .background
 {
     width: 100% ;
     background-image: url('background.png');
     background-size: cover ;
 }
+/*************SECTION ARTICLES***************/
+figure
+{
+    margin: 0 ;
+}
+/*----------------FORMULAIRE-----------------*/
 .form
 {
     color: #d73252;
@@ -97,15 +109,12 @@ p
     background-color: #d73252;
     border-radius: 15px;
 }
-li
-{
-    list-style-type: none ;
-}
-figure
-{
-    margin: 0 ;
-}
 label
 {
     margin-left: 2em;
 }
+input
+{
+    width: 500px;
+}
+/*----------------FOOTER------------------*/
