@@ -83,6 +83,13 @@ a:link
             {
                padding-right: 100%;
             }
+            .bouton
+            {
+                bottom: -27px;
+                left: 39%;
+                right: 50%;
+                z-index: 1;
+            }
     }
 @media screen and (min-width: 651px) and (max-width: 1200px)
     {
@@ -124,7 +131,7 @@ a:link
             }
             span.sright
             {
-                margin-left: 10px;
+                margin-left: 105px;
             }
             input.r1
             {
@@ -136,7 +143,7 @@ a:link
             }
             span.sleft
             {
-                margin-right: 450px;
+                margin-right: 550px;
             }
             input.l1
             {
@@ -157,7 +164,7 @@ a:link
             .bouton
             {
                 bottom: -27px;
-                left: 50%;
+                left: 46%;
                 right: 50%;
                 z-index: 1;
             }
@@ -207,7 +214,7 @@ a:link
             }
             span.sright
             {
-                margin-left: 10px;
+                margin-left: 315px;
             }
             input.r1
             {
@@ -219,7 +226,7 @@ a:link
             }
             span.sleft
             {
-                margin-right: 450px;
+                margin-right: 705px;
             }
             input.l1
             {
@@ -281,5 +288,28 @@ figure
 {
     background-color: #d73252;
     border-radius: 15px;
+    border: 
 }
 /*----------------FOOTER------------------*/
+.aFooter
+{
+    margin-left: 43px;
+}
+.paddLeft
+{
+    padding-left: 56px;
+}
+input
+{
+    background-color: rgba(255, 206, 64, 2) ;
+    opacity:5;
+    border: solid black 1px;
+}
+input:hover
+{
+    border: solid black 2px;
+}
+span
+{
+    z-index: 2 ;
+}
